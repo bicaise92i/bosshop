@@ -1,0 +1,299 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#leo_search_block_top {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  #leo_search_block_top .icon-open-search {
+    display: none;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f7389a;
+    background-image: -moz-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+    background-image: -webkit-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+    background-image: -o-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+    background-image: -ms-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+    background-image: linear-gradient(100deg, #f7389a 0%, #fe4254 100%); }
+    #leo_search_block_top .icon-open-search .icon-search {
+      display: inline-block;
+      vertical-align: middle; }
+      #leo_search_block_top .icon-open-search .icon-search:before {
+        display: block;
+        content: '\E8B6';
+        font-family: "Material Icons"; }
+  #leo_search_block_top .box-title {
+    display: none;
+    text-align: center;
+    margin-bottom: 35px; }
+    @media (max-width: 767px) {
+      #leo_search_block_top .box-title {
+        margin-bottom: 30px; } }
+    #leo_search_block_top .box-title h4 {
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 5px; }
+      @media (max-width: 991px) {
+        #leo_search_block_top .box-title h4 {
+          font-size: 30px; } }
+      @media (max-width: 767px) {
+        #leo_search_block_top .box-title h4 {
+          font-size: 28px; } }
+    #leo_search_block_top .box-title p {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.5); }
+  #leo_search_block_top form > label {
+    display: none; }
+  #leo_search_block_top.search-by-category .list-cate-wrapper {
+    width: 28%;
+    float: right; }
+    .rtl #leo_search_block_top.search-by-category .list-cate-wrapper {
+      float: left; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #leo_search_block_top.search-by-category .list-cate-wrapper {
+        width: 30%; } }
+    @media (max-width: 991px) {
+      #leo_search_block_top.search-by-category .list-cate-wrapper {
+        width: 35%; } }
+    @media (max-width: 767px) {
+      #leo_search_block_top.search-by-category .list-cate-wrapper {
+        display: none; } }
+  #leo_search_block_top.search-by-category .leoproductsearch-result {
+    width: 72%;
+    float: left; }
+    .rtl #leo_search_block_top.search-by-category .leoproductsearch-result {
+      float: right; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #leo_search_block_top.search-by-category .leoproductsearch-result {
+        width: 70%; } }
+    @media (max-width: 991px) {
+      #leo_search_block_top.search-by-category .leoproductsearch-result {
+        width: 65%; } }
+    @media (max-width: 767px) {
+      #leo_search_block_top.search-by-category .leoproductsearch-result {
+        width: 100%; } }
+  #leo_search_block_top .block_content {
+    position: relative;
+    padding-right: 55px; }
+    .rtl #leo_search_block_top .block_content {
+      padding-left: 55px;
+      padding-right: inherit; }
+    #leo_search_block_top .block_content .list-cate-wrapper {
+      color: #6b6a74;
+      background: #FFFFFF;
+      position: relative;
+      border-top: 1px solid #cccccc;
+      border-bottom: 1px solid #cccccc; }
+      #leo_search_block_top .block_content .list-cate-wrapper i {
+        top: 50%;
+        font-size: 15px;
+        position: absolute;
+        margin-top: -6px;
+        direction: ltr !important;
+        right: 8px; }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper i {
+          left: 8px;
+          right: auto; }
+      #leo_search_block_top .block_content .list-cate-wrapper .select-title {
+        height: 43px;
+        line-height: 43px;
+        cursor: pointer;
+        display: block;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0 20px 0 15px; }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper .select-title {
+          padding: 0 15px 0 20px; }
+        #leo_search_block_top .block_content .list-cate-wrapper .select-title:hover {
+          color: #fe4254; }
+        #leo_search_block_top .block_content .list-cate-wrapper .select-title span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical; }
+      #leo_search_block_top .block_content .list-cate-wrapper .list-cate {
+        margin-top: 0;
+        min-width: auto;
+        padding: 13px 0;
+        border-radius: 0px;
+        right: -56px;
+        left: 0px;
+        -moz-border-image: -moz-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+        -webkit-border-image: -webkit-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+        -o-border-image: -o-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+        -ms-border-image: -ms-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+        border-image: linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+        -moz-border-image-slice: 1;
+        -webkit-border-image-slice: 1;
+        -o-border-image-slice: 1;
+        -ms-border-image-slice: 1;
+        border-image-slice: 1;
+        -moz-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        -webkit-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        -o-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        -ms-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35); }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper .list-cate {
+          right: 0px;
+          left: -56px; }
+        #leo_search_block_top .block_content .list-cate-wrapper .list-cate a {
+          display: block;
+          padding: 8px 20px;
+          font-size: 13px;
+          font-weight: 300; }
+          @media (min-width: 1199px) and (max-width: 992px) {
+            #leo_search_block_top .block_content .list-cate-wrapper .list-cate a {
+              padding-left: 15px;
+              padding-right: 15px; } }
+          #leo_search_block_top .block_content .list-cate-wrapper .list-cate a.active {
+            color: #fe4254; }
+          #leo_search_block_top .block_content .list-cate-wrapper .list-cate a:hover {
+            color: #fe4254; }
+    #leo_search_block_top .block_content .leoproductsearch-result {
+      position: relative; }
+      #leo_search_block_top .block_content .leoproductsearch-result .search_query {
+        height: 45px;
+        padding: 6px 12px;
+        background: #FFFFFF;
+        border: 1px solid #cccccc;
+        -moz-border-radius: 50px 0 0 50px;
+        -webkit-border-radius: 50px 0 0 50px;
+        border-radius: 50px 0 0 50px; }
+        .rtl #leo_search_block_top .block_content .leoproductsearch-result .search_query {
+          -moz-border-radius: 0 50px 50px 0;
+          -webkit-border-radius: 0 50px 50px 0;
+          border-radius: 0 50px 50px 0; }
+        #leo_search_block_top .block_content .leoproductsearch-result .search_query:focus {
+          outline: 0; }
+      #leo_search_block_top .block_content .leoproductsearch-result .leoproductsearch-loading.cssload-speeding-wheel {
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        z-index: 9;
+        width: 15px;
+        height: 15px;
+        margin: auto;
+        right: 10px;
+        border: 2px solid #000000;
+        border-left-color: transparent;
+        border-right-color: transparent; }
+        .rtl #leo_search_block_top .block_content .leoproductsearch-result .leoproductsearch-loading.cssload-speeding-wheel {
+          left: 10px;
+          right: auto; }
+    #leo_search_block_top .block_content #leo_search_top_button {
+      top: 0px;
+      width: 56px;
+      height: 45px;
+      padding: 0px;
+      z-index: 9;
+      font-size: 18px;
+      position: absolute;
+      font-weight: bold;
+      border: none;
+      color: #FFFFFF;
+      background-color: #f7389a;
+      background-image: -moz-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+      background-image: -webkit-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+      background-image: -o-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+      background-image: -ms-linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+      background-image: linear-gradient(100deg, #f7389a 0%, #fe4254 100%);
+      right: 0px;
+      -moz-border-radius: 0 50px 50px 0;
+      -webkit-border-radius: 0 50px 50px 0;
+      border-radius: 0 50px 50px 0;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .rtl #leo_search_block_top .block_content #leo_search_top_button {
+        left: 0px;
+        right: auto; }
+      .rtl #leo_search_block_top .block_content #leo_search_top_button {
+        -moz-border-radius: 50px 0 0 50px;
+        -webkit-border-radius: 50px 0 0 50px;
+        border-radius: 50px 0 0 50px; }
+      #leo_search_block_top .block_content #leo_search_top_button:before {
+        content: '\E8B6';
+        display: block;
+        font-family: "Material Icons"; }
+      #leo_search_block_top .block_content #leo_search_top_button:hover {
+        background-color: #ef1c8e;
+        background-image: -moz-linear-gradient(-90deg, #ef1c8e 0%, #3050fe 100%);
+        background-image: -webkit-linear-gradient(-90deg, #ef1c8e 0%, #3050fe 100%);
+        background-image: -o-linear-gradient(-90deg, #ef1c8e 0%, #3050fe 100%);
+        background-image: -ms-linear-gradient(-90deg, #ef1c8e 0%, #3050fe 100%);
+        background-image: linear-gradient(-90deg, #ef1c8e 0%, #3050fe 100%); }
+      #leo_search_block_top .block_content #leo_search_top_button i {
+        display: none; }
+  #leo_search_block_top .ac_results {
+    z-index: 1001; }
+    #leo_search_block_top .ac_results .ac_even::after {
+      content: "";
+      display: table;
+      clear: both; }
+    #leo_search_block_top .ac_results .lps-result-img {
+      width: 30px;
+      float: left; }
+      .rtl #leo_search_block_top .ac_results .lps-result-img {
+        float: right; }
+    #leo_search_block_top .ac_results .lps-result-content {
+      overflow: hidden;
+      padding-left: 5px; }
+      .rtl #leo_search_block_top .ac_results .lps-result-content {
+        padding-right: 5px;
+        padding-left: inherit; }
+    #leo_search_block_top .ac_results .lps-result-price {
+      font-size: 12px;
+      font-weight: bold; }
+    #leo_search_block_top .ac_results .lps-result-title {
+      font-size: 13px; }
+
+@media (max-width: 479px) and (max-width: 991px) {
+  .leo-search-mobile #leo_search_block_top {
+    z-index: 1000; } }
+@media (max-width: 479px) {
+  .leo-search-mobile #leo_search_block_top #leosearchtopbox {
+    position: absolute;
+    top: 100%;
+    z-index: 99;
+    width: 290px;
+    display: none;
+    right: auto;
+    left: 15px; }
+    .rtl .leo-search-mobile #leo_search_block_top #leosearchtopbox {
+      right: 15px;
+      left: auto; }
+  .leo-search-mobile #leo_search_block_top .icon-open-search {
+    display: block; } }
+@media (min-width: 480px) {
+  .leo-search-mobile #leo_search_block_top #leosearchtopbox {
+    display: block !important; } }
+
+/*# sourceMappingURL=leosearch.css.map */

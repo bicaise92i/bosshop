@@ -1,0 +1,62 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#index #wrapper {
+  padding-top: 0px; }
+
+.box-start {
+  margin-bottom: 30px; }
+
+@media (min-width: 992px) {
+  .box-banners-newsletter {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+.box-banners-newsletter > [class*="col-"] {
+  margin-bottom: 30px; }
+.box-banners-newsletter .banner {
+  text-align: center; }
+
+.box-sidebar .left-sidebar .banner {
+  margin-bottom: 30px; }
+  @media (min-width: 992px) {
+    .box-sidebar .left-sidebar .banner {
+      margin-top: 10px;
+      margin-bottom: 50px; } }
+.box-sidebar .left-sidebar .categories-carousel {
+  margin-bottom: 30px; }
+  @media (min-width: 992px) {
+    .box-sidebar .left-sidebar .categories-carousel {
+      margin-top: 30px; } }
+.box-sidebar .right-sidebar .product-deal {
+  margin-bottom: 30px; }
+.box-sidebar .right-sidebar .banner {
+  margin-bottom: 30px; }
+.box-sidebar .right-sidebar .product-sidebar {
+  margin-bottom: 10px; }
+.box-sidebar .banner {
+  text-align: center; }
+
+/*# sourceMappingURL=profile1491397774.css.map */

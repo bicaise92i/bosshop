@@ -1,0 +1,22 @@
+{* 
+* @Module Name: AP Page Builder
+* @Website: apollotheme.com - prestashop template provider
+* @author Apollotheme <apollotheme@gmail.com>
+* @copyright Apollotheme
+* @description: ApPageBuilder is module help you can build content for your shop
+*}
+<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
+<div class="quickview{if !$product.main_variants} no-variants{/if} hidden-sm-down">
+	<a
+		href="#"
+		class="quick-view btn-product"
+		data-link-action="quickview"
+		data-source=".thumb-gallery-{$product.id}-{$product.id_product_attribute}"
+		title="{l s='Quick view' d='Shop.Theme.Actions'}"
+	>
+		<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
+		<span class="leo-quickview-bt-content">	
+	  		<i class="icon-quick-view"></i> <span>{l s='Quick view' d='Shop.Theme.Actions'}</span>
+	  	</span>
+	</a>
+</div>

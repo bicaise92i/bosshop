@@ -1,0 +1,91 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#index #wrapper {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.box-start {
+  margin-bottom: 30px; }
+
+.box-service {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 60px; }
+  @media (max-width: 991px) {
+    .box-service {
+      margin-bottom: 30px; } }
+  .box-service > [class*="col-"] {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+.box-product {
+  margin-bottom: 40px; }
+  @media (max-width: 991px) {
+    .box-product {
+      margin-bottom: 20px; } }
+
+.box-banner {
+  margin-bottom: 40px; }
+
+.box-two-banner {
+  margin-bottom: 60px; }
+  @media (max-width: 991px) {
+    .box-two-banner {
+      margin-bottom: 30px; } }
+  @media (max-width: 575px) {
+    .box-two-banner > [class*="col-"] + [class*="col-"] {
+      margin-top: 30px; } }
+
+.box-tab-banner {
+  margin-bottom: 40px; }
+  @media (max-width: 575px) {
+    .box-tab-banner > [class*="col-"] + [class*="col-"] {
+      margin-top: 30px; } }
+  .box-tab-banner .thumbnail-container {
+    margin-bottom: 0px; }
+    @media (min-width: 992px) {
+      .box-tab-banner .thumbnail-container .product-meta {
+        padding: 20px 15px 20px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .box-tab-banner .thumbnail-container .product-meta {
+        padding: 10px 15px 10px; } }
+    @media (min-width: 992px) {
+      .box-tab-banner .thumbnail-container .functional-buttons > div.cart {
+        margin-top: 30px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .box-tab-banner .thumbnail-container .functional-buttons > div.cart {
+        margin-top: 20px; } }
+  @media (min-width: 1200px) {
+    .box-tab-banner .product-tabs-home .nav-tabs {
+      padding-bottom: 40px; } }
+
+.box-category-carousel {
+  margin-bottom: 40px; }
+  @media (max-width: 991px) {
+    .box-category-carousel {
+      margin-bottom: 20px; } }
+
+.box-manufactures {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*# sourceMappingURL=profile1498918867.css.map */

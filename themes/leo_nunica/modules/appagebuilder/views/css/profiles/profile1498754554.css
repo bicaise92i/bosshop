@@ -1,0 +1,94 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+@media (min-width: 992px) {
+  .box-slideshow .iview-controlNav div.iview-items {
+    bottom: 90px; } }
+@media (min-width: 1200px) {
+  .box-slideshow .iview-controlNav div.iview-items {
+    bottom: 110px; } }
+
+.box-banner-no-padding {
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  display: inline-block; }
+  @media (min-width: 992px) {
+    .box-banner-no-padding {
+      margin-top: -70px; } }
+  @media (min-width: 1200px) {
+    .box-banner-no-padding {
+      margin-top: -90px; } }
+  .box-banner-no-padding > [class*="col-"] {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .box-banner-no-padding .banner {
+    text-align: center; }
+
+.box-service {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 60px; }
+  @media (max-width: 991px) {
+    .box-service {
+      margin-bottom: 30px; } }
+  .box-service > [class*="col-"] {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+.box-product-tab {
+  margin-bottom: 40px; }
+  @media (max-width: 991px) {
+    .box-product-tab {
+      margin-bottom: 20px; } }
+
+.box-banner {
+  margin-bottom: 60px; }
+  @media (max-width: 991px) {
+    .box-banner {
+      margin-bottom: 30px; } }
+
+.box-product-list-sidebar {
+  margin-bottom: 20px; }
+  .box-product-list-sidebar .ApProductCarousel {
+    margin-bottom: 30px; }
+  @media (max-width: 767px) and (min-width: 576px) {
+    .box-product-list-sidebar .product-miniature {
+      float: left;
+      width: 50%; }
+      .box-product-list-sidebar .product-miniature:nth-child(2n + 1) {
+        clear: both; } }
+
+@media (min-width: 992px) {
+  .box-newsletter-testimonials {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+@media (max-width: 991px) {
+  .box-newsletter-testimonials .block_newsletter {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=profile1498754554.css.map */
